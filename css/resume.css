@@ -1,0 +1,119 @@
+#bigdiv{
+	background-image: linear-gradient(-90deg, #42e5f4, rgb(80, 244, 65));
+	height: 1100px;
+	padding: 65px;
+	margin-left: 150px;
+	margin-right: 150px;
+	border: solid;
+	border-style: solid;
+	border-radius: 50px
+	
+}
+#photodiv{
+	position: static;
+}
+#photoimg{
+	width: 200px;
+	height: 250px;
+
+}
+#namediv{
+	margin-left: 0px;
+	position: static;
+}
+#contactdiv{
+	position: absolute;
+	top: 200px;
+	left: 700px;
+	 
+}
+#careerobjectivediv{
+	margin-top: 50px;
+}
+#addressdiv{
+
+}
+#qualificationdiv{
+	margin-top: 40px;
+}
+table,td,th{
+	border: 1px solid black;
+}
+td{
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+	width: 100%
+}
+#skillsdiv{
+	margin-top: 40px;
+}
+#declaration{
+	margin-top: 40px;
+}
+#signature{
+	margin-top: 60px;
+	float: right;
+	position: static;
+}
+.headingdiv{
+	width: 100%;
+	background: rgb(220, 65, 244);
+}
+
+.tooltip .tooltiptext {
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+
+
+  }
+  .tooltip .tooltiptext:hover {
+  background-color: blue;
+  color: white;
+}
+
+  .tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  /*top: 100%;
+  left: 10%;*/
+  right: 100%;
+  left: 0%;
+  transform: rotate(170deg);
+  margin-left: -12px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.icon{
+	position: absolute;
+	margin-left: -120px;
+
+}
+@media only screen and (max-width: 600px) {
+  .tooltip .tooltiptext {
+    
+	width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  }
+}
